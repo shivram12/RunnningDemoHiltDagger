@@ -30,6 +30,8 @@
             android:value="@string/google_maps_key" />
 
 
+        <service android:name=".services.TrackingServices"
+            android:foregroundServiceType="location"/>
 
     </application>
 
